@@ -1,0 +1,22 @@
+name: lnapp
+description: Simple LND node remote control app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  grpc: any
+  protobuf: any
+  font_awesome_flutter: any
+  flutter_secure_storage: ^3.2.1+1
+  tuple: ^1.0.2
+  intl: ^0.15.8
+  qr_flutter: ^2.1.0+55
+
+dev_dependencies:
+
+flutter:
